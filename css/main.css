@@ -262,7 +262,7 @@ main {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1214px) {
   main {
     align-items: center;
     text-align: center; }
