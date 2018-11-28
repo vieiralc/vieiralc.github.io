@@ -20,7 +20,7 @@ let jobs = [
         company: 'Not mined yet',
         companySite: '#',
         role: 'Lorem ipsum dolor sit amet consectetur.',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem recusandae qui voluptatum.',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem recusandae qui.',
         badges: {
             bg1: 'empty',
             bg2: 'empty',
@@ -35,7 +35,7 @@ let jobs = [
         company: 'Not mined yet',
         companySite: '#',
         role: 'Lorem ipsum dolor sit amet consectetur.',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem recusandae qui voluptatum.',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem recusandae qui.',
         badges: {
             bg1: 'empty',
             bg2: 'empty',
