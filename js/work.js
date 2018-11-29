@@ -1,15 +1,15 @@
 let projects = [
     {
         id: 1,
-        projectname: 'project name',
-        githublink: 'github.com/vieiralc',
-        viewlink: 'github.com/vieiralc/projectname'
+        projectname: 'Intro to Augmented Reality',
+        githublink: 'https://github.com/vieiralc/augmented-reality',
+        viewlink: 'https://vieiralc.github.io/augmented-reality/presentation/'
     },
     {
         id: 2,
-        projectname: 'project name',
-        githublink: 'github.com/vieiralc',
-        viewlink: 'github.com/vieiralc/projectname'
+        projectname: 'Upgradable ETH Smart Contract',
+        githublink: 'https://github.com/vieiralc/blockchain-challenge',
+        viewlink: '#'
     },
     {
         id: 3,
@@ -36,13 +36,13 @@ window.addEventListener('load', () => {
         let div = document.createElement('div')
         let html = `
             <div class="item">
-                <a href="${project.viewlink}">
-                <img src="img/projects/project${project.id}.jpg" alt="Project">
+                <a href="${project.viewlink}" target="_blank">
+                    <img src="img/projects/project${project.id}.jpg" alt="${project.name}">
                 </a>
-                <a href="${project.viewlink}" class="btn-light">
+                <a class="btn-light" href="${project.viewlink}" target="_blank">
                     <i class="fas fa-eye"></i> ${project.projectname}
                 </a>
-                <a href="${project.githublink}" class="btn-dark">
+                <a class="btn-dark" href="${project.githublink}" target="_blank">
                     <i class="fab fa-github"></i> Github
                 </a>
             </div>
