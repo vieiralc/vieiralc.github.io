@@ -14,8 +14,26 @@ let projects = [
     {
         id: 3,
         projectname: 'Dev Connector (udemy)',
-        projectlink: 'https://github.com/vieiralc/dev-connector',
+        githublink: 'https://github.com/vieiralc/dev-connector',
         viewlink: 'https://github.com/vieiralc/dev-connector'
+    },
+    {
+        id: 4,
+        projectname: 'Blockchain Documents',
+        githublink: 'https://github.com/vieiralc/document-verification-dapp',
+        viewlink: 'https://github.com/vieiralc/document-verification-dapp'
+    },
+    {
+        id: 5,
+        projectname: 'Flutter Cryptocurrency',
+        githublink: 'https://github.com/vieiralc/cryptocurrency-quotation',
+        viewlink: 'https://github.com/vieiralc/cryptocurrency-quotation'
+    },
+    {
+        id: 6,
+        projectname: 'Python Snake Game',
+        githublink: 'https://github.com/vieiralc/python-snake-game',
+        viewlink: 'https://github.com/vieiralc/python-snake-game'
     }
 ]
 
