@@ -9,26 +9,14 @@ let projects = [
         id: 2,
         projectname: 'Upgradable ETH Smart Contract',
         githublink: 'https://github.com/vieiralc/blockchain-challenge',
-        viewlink: '#'
+        viewlink: 'https://github.com/vieiralc/blockchain-challenge'
     },
     {
         id: 3,
-        projectname: 'project name',
-        githublink: 'github.com/vieiralc',
-        viewlink: 'github.com/vieiralc/projectname'
-    },
-    {
-        id: 4,
-        githublink: 'github.com/vieiralc',
-        projectname: 'project name',
-        viewlink: 'github.com/vieiralc/projectname'
-    },
-    {
-        id: 5,
-        githublink: 'github.com/vieiralc',
-        projectname: 'project name',
-        viewlink: 'github.com/vieiralc/projectname'
-    },
+        projectname: 'Dev Connector (udemy)',
+        projectlink: 'https://github.com/vieiralc/dev-connector',
+        viewlink: 'https://github.com/vieiralc/dev-connector'
+    }
 ]
 
 window.addEventListener('load', () => {
