@@ -31,6 +31,13 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
+
+  &.sm-heading1 {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    width: 50%;
+    background: rgba(lighten($primary-color, 2), 0.5);
+  }
 }
 
 a {
@@ -81,6 +88,7 @@ main {
     'bioimage bio bio'
     'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 30px;
 
   .bio-image {
     grid-area: bioimage;
@@ -122,6 +130,14 @@ main {
     padding: 4px;
     margin-top: 3px;
   }
+}
+
+.skills {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 
+    'sk1 sk2 sk3'
+    '';
 }
 
 .small {
