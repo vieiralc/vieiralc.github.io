@@ -58,6 +58,7 @@ window.addEventListener('load', () => {
                 <span class="badge">${job.badges.bg1}</span>
                 <span class="badge">${job.badges.bg2}</span>
                 <span class="badge">${job.badges.bg3}</span>
+                <p></p>
                 <table>
                     <tr>
                         <td class="small"> Hash: </td>
