@@ -15,7 +15,7 @@ let projects = [
         id: 3,
         projectname: 'Dev Connector (udemy)',
         githublink: 'https://github.com/vieiralc/dev-connector',
-        viewlink: 'https://github.com/vieiralc/dev-connector'
+        viewlink: 'https://devconnector-assignment.herokuapp.com/'
     },
     {
         id: 4,
@@ -34,6 +34,12 @@ let projects = [
         projectname: 'Python Snake Game',
         githublink: 'https://github.com/vieiralc/python-snake-game',
         viewlink: 'https://github.com/vieiralc/python-snake-game'
+    },
+    {
+        id: 7,
+        projectname: 'SpaceX Launches API',
+        githublink: '#',
+        viewlink: 'https://vieiralc-spacexlaunches.herokuapp.com/'
     }
 ]
 
