@@ -40,7 +40,13 @@ let projects = [
         projectname: 'SpaceX Launches API',
         githublink: '#',
         viewlink: 'https://vieiralc-spacexlaunches.herokuapp.com/'
-    }
+    },
+    {
+        id: 8,
+        projectname: 'Voting Dapp',
+        githublink: 'https://github.com/vieiralc/voting-dapp',
+        viewlink: 'https://voting-dapp.netlify.com'
+    },
 ]
 
 window.addEventListener('load', () => {
