@@ -13,7 +13,7 @@ let projects = [
     },
     {
         id: 3,
-        projectname: 'Dev Connector (udemy)',
+        projectname: 'Dev Connector',
         githublink: 'https://github.com/vieiralc/dev-connector',
         viewlink: 'https://devconnector-assignment.herokuapp.com/'
     },
